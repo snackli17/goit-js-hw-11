@@ -1,5 +1,5 @@
 import '../src/sass/form.css';
-import { FetchPictures } from './fetchPictures';
+import { FetchPictures } from './FetchPictures';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import Notiflix from 'notiflix';
@@ -121,4 +121,4 @@ function onPagination(entries, observer) {
 gallery.on('show.simplelightbox', function () { });
 
 searchPictures.addEventListener('submit', formSubmit);
-// f
+// ffff
