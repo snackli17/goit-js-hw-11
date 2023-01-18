@@ -4,6 +4,9 @@ import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import Notiflix from 'notiflix';
 
+// function
+
+
 const searchPictures = document.querySelector('#search-form');
 const searchGallery = document.querySelector('.gallery');
 const searchBtnEl = document.querySelector('.search-btn');
@@ -121,4 +124,3 @@ function onPagination(entries, observer) {
 gallery.on('show.simplelightbox', function () { });
 
 searchPictures.addEventListener('submit', formSubmit);
-// ffffffgfgf
