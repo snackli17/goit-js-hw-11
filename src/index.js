@@ -121,3 +121,4 @@ function onPagination(entries, observer) {
 gallery.on('show.simplelightbox', function () { });
 
 searchPictures.addEventListener('submit', formSubmit);
+// f
